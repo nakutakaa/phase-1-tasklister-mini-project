@@ -4,7 +4,7 @@
 
 - Build a functioning to-do list application
 - Suppress a default action with `event.preventDefault()`
-
+type="submit" value="Create New Task"
 ## Introduction
 
 In this lab, you'll be creating a simple to-do list application that uses
@@ -14,12 +14,11 @@ Check out the [working demo][example]!
 
 ## Lab: Build a Functioning To-Do List Application
 
-Instead of relying on tests, this lab is _deliverable driven_. You will be
-responsible for ensuring that your solution works as intended by testing the
+Instead of relying on tests, this lab is _deliverable driven_. You will be responsible for ensuring that your solution works as intended by testing the type="submittype="submit" value="Create New Task"" value="Create New Task"
 behavior in the browser.
-
+type="submit" value="Create New Task"
 1. Fork and clone this repository
-2. Open `index.html` in Chrome
+2. Open `index.html` in Chrometype="submit" value="Create New Task"
 3. Put your JavaScript knowledge to the test and work your way through the
    deliverables
 
@@ -71,8 +70,9 @@ If you look in the `index.html` file, you will see the following:
     id="new-task-description"
     name="new-task-description"
     placeholder="description"
-  />
-  <input type="submit" value="Create New Task" />
+    type="submit" 
+    value="Create New Task" />
+  <input
 </form>
 ```
 
@@ -83,7 +83,7 @@ Now take a look at the page in your browser. The rendered form looks like this:
 You can see each of the components that are in our form's HTML:
 
 1. the label for our input field ("Task description:")
-2. the input box, with the placeholder content "description", and
+2. the input box, with the placeholder content "description",type="submit" value="Create New Task" and
 3. the button that's created by the `submit` input tag
 
 Let's take a closer look at the opening `<form>` tag. You'll see it includes an
@@ -92,11 +92,11 @@ Let's take a closer look at the opening `<form>` tag. You'll see it includes an
 ```html
 <form id="create-task-form" action="#" method="POST"></form>
 ```
-
+type="submit" value="Create New Task"
 Because HTML forms were designed to be handled by backend programming languages
 such as PHP, the `action` attribute would normally contain a path to the backend
 code that processes the data captured from the user. Because we will be handling
-the form using JavaScript, we don't need to provide a path. By convention, we
+the form using JavaScript, we don't need to provide a path. By cotype="submit" value="Create New Task"nvention, we
 set that attribute to `"#"`.
 
 The `method` attribute specifies the _type_ of action we're executing when the
