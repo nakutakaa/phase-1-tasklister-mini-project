@@ -16,6 +16,5 @@ document.addEventListener("DOMContentLoaded", () => {
     taskList.appendChild(newTask);
     // Clear the input field
     taskInput.value = "";
-    document.getElementById("main-content").innerText = "EVIDENCE";
   });
 });
